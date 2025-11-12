@@ -5,11 +5,15 @@ stages:
 test:
   stage: test
   image: golang:1.21
-  script: 
+  script:
    - go test .
+  tags:
+   - homework
 
 build:
   stage: build
   image: docker:latest
   script:
    - docker build .
+  tags:
+   - homework
