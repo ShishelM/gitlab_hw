@@ -21,7 +21,7 @@
 ![5](img/image4.png)
 2. Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
 
-![файл .gitlab-ci.yml](.gitlab-ci.yml)
+[файл .gitlab-ci.yml](/.gitlab-ci.yml)
 
 ![6](img/image5.png)
 ---
